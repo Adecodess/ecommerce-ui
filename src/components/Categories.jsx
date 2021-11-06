@@ -12,7 +12,8 @@ const Categories = () => {
   return (
     <Container>
       {categories.map((item) => {
-        return <CategoryItem item={item} />;
+        console.log(item);
+        return <CategoryItem item={item} key={item.id} />;
       })}
     </Container>
   );

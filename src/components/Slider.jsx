@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { ArrowRightOutlined, ArrowLeftOutlined } from '@mui/icons-material';
-import Img from '../assets/images/bg.png';
+
 import { sliderItems } from '../data';
 
 const Container = styled.div`
