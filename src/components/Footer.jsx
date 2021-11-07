@@ -10,9 +10,11 @@ import {
 import styled from 'styled-components';
 
 import payment from '../assets/images/pay.jpg';
+import { mobile } from '../responsive';
 
 const Container = styled.div`
   display: flex;
+  ${mobile({ flexDirection: 'column' })}
 `;
 const Left = styled.div`
   flex: 1;
@@ -43,6 +45,7 @@ const SocialIcon = styled.div`
 const Center = styled.div`
   flex: 1;
   padding: 20px;
+  ${mobile({ display: 'none' })}
 `;
 
 const Title = styled.h3`
@@ -63,6 +66,7 @@ const ListItem = styled.li`
 const Right = styled.div`
   flex: 1;
   padding: 20px;
+  ${mobile({ backgroundColor: '#faf8f8' })}
 `;
 
 const ContactItem = styled.div`
