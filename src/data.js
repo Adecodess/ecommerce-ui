@@ -44,16 +44,19 @@ export const categories = [
     id: 1,
     img: Img4,
     title: 'SHIRT STYLE',
+    cat: 'men',
   },
   {
     id: 2,
     img: Img5,
     title: 'DINNER GOWN',
+    cat: 'gown',
   },
   {
     id: 3,
     img: Img6,
     title: 'WINTER JACKETS',
+    cat: 'jackets',
   },
 ];
 export const popularProducts = [
